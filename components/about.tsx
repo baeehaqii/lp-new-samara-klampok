@@ -59,22 +59,22 @@ export default function About() {
 
           {/* Container statistik */}
           <div className="about-stats-grid">
-            {/* Statistik - Projects Completed */}
+            {/* Statistik - Best Locations */}
             <div className="about-stat-card">
-              <div className="about-stat-value">1</div>
-              <div className="about-stat-label">Hunian Terbaik di Klampok</div>
+              <div className="about-stat-value">3</div>
+              <div className="about-stat-label">Lokasi Terbaik di Jawa Bagian Selatan</div>
             </div>
 
-            {/* Statistik - Awards */}
+            {/* Statistik - Families */}
             <div className="about-stat-card">
-              <div className="about-stat-value">100+</div>
-              <div className="about-stat-label">Keluarga Samara Klampok</div>
+              <div className="about-stat-value">10.000+</div>
+              <div className="about-stat-label">Keluarga Sapphire</div>
             </div>
 
-            {/* Statistik - Satisfied Clients */}
+            {/* Statistik - Featured Projects */}
             <div className="about-stat-card">
-              <div className="about-stat-value">24</div>
-              <div className="about-stat-label">Jam Keamanan One-Gate</div>
+              <div className="about-stat-value">3</div>
+              <div className="about-stat-label">Proyek Unggulan</div>
             </div>
 
             {/* Statistik - Years of Experience */}

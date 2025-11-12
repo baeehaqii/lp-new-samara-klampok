@@ -7,7 +7,6 @@ import Link from "next/link"
 import { useState, useMemo } from "react"
 import { BedDoubleIcon, BathIcon, LandPlotIcon, BadgeCheckIcon, XIcon, ZoomInIcon, ZoomOutIcon } from "./icons"
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import ConstructionProgress from "./construction-progress"
 
 function formatIDR(value: number) {
   return value.toLocaleString('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 })
@@ -325,7 +324,7 @@ export default function Properties() {
   const [touchStart, setTouchStart] = useState<{ [key: number]: number }>({})
   const [isDragging, setIsDragging] = useState<{ [key: number]: boolean }>({})
   const [dragStart, setDragStart] = useState<{ [key: number]: number }>({})
-  const [modalTab, setModalTab] = useState<'detail' | 'simulasi' | 'progres'>('detail')
+  const [modalTab, setModalTab] = useState<'detail' | 'simulasi'>('detail')
   const [kprHarga, setKprHarga] = useState<string>('')
   const [kprDp, setKprDp] = useState<string>('')
   const [kprTahun, setKprTahun] = useState<string>('')
@@ -917,24 +916,6 @@ export default function Properties() {
               >
                 Simulasi KPR
               </button>
-              <button
-                onClick={() => setModalTab('progres')}
-                style={{
-                  padding: '12px 0',
-                  border: 'none',
-                  backgroundColor: 'transparent',
-                  fontSize: '14px',
-                  fontWeight: modalTab === 'progres' ? '700' : '500',
-                  color: modalTab === 'progres' ? '#12344F' : '#94a3b8',
-                  cursor: 'pointer',
-                  borderBottom: modalTab === 'progres' ? '2px solid #12344F' : 'none',
-                  transition: 'all 0.2s',
-                  fontFamily: 'inherit',
-                  marginBottom: '-1px'
-                }}
-              >
-                Progres Pembangunan
-              </button>
             </div>
 
             <div className="modal-content">
@@ -985,9 +966,6 @@ export default function Properties() {
                       </div>
                     </div>
 
-                    <h3 className="modal-subtitle">Harga</h3>
-                    <div className="modal-price">Rp {selectedProperty.price}</div>
-
                     <div className="modal-cta">
                       <Link
                         href="https://wa.me/628170031130?text=Halo,%20saya%20tertarik%20dengan%20properti%20Samara%20Asri%20Wiradadi"
@@ -1009,9 +987,7 @@ export default function Properties() {
                   onTahunChange={setKprTahun}
                   onBungaChange={setKprBunga}
                 />
-              ) : (
-                <ConstructionProgress />
-              )}
+              ) : null}
             </div>
           </div>
         </div>

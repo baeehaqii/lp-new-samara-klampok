@@ -17,19 +17,19 @@ export default function Testimonials() {
     const testimonials: Testimonial[] = [
         {
             id: 1,
-            name: "Ibu Rossie",
-            location: "Klampok, Indonesia",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435664/Screenshot_2025-08-17_at_19-59-13_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_t4hycn.png",
+            name: "Arum N.",
+            location: "Indonesia",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762656135/download_cszbzm.png",
             rating: 5,
-            text: "Saya sangat senang dengan pengalaman membeli rumah di Samara Klampok. Tim marketing sangat membantu dan ramah. Prosesnya cepat dan mudah. Saya merasa sangat puas dengan rumah yang saya beli. Terima kasih Samara Grup!",
+            text: "Keren model rumahnya pas di pinggir jalan cocok untuk investasi. Lokasinya strategis deket kalo mau kemana-mana.",
         },
         {
             id: 2,
-            name: "Bapak Handy",
-            location: "Klampok, Indonesia",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435663/Screenshot_2025-08-17_at_20-00-42_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_ybu2pd.png",
+            name: "Ferlin",
+            location: "Indonesia",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762656135/download_cszbzm.png",
             rating: 5,
-            text: "Saya sangat puas dengan pelayanan Samara di Klampok. Tim marketing sangat profesional dan membantu saya menemukan rumah yang sesuai dengan kebutuhan keluarga. Lokasi perumahan juga strategis banget. Terima kasih Samara Klampok!",
+            text: "Hunian nyaman dengan lokasi strategis, akses mudah dan suasana lingkungan asri. Developer responsif dan profesional.",
         },
 
     ]
