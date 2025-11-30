@@ -17,17 +17,17 @@ export default function Hero() {
 
   const heroSlides = [
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764520884/40_77_Klampok_2_k4txhw.avif",
       title: "Rumah Pertama, Langkah Awal Cerita",
       description: "Dekat sekolah, pasar, dan pusat aktivitas.",
     },
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764520890/32_66_Klampok_2_jun11y.avif",
       title: "Segalanya Dekat, Hidup Lebih Ringan",
       description: "Hunian strategis di Brebes dengan akses cepat ke fasilitas penting.",
     },
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825387/2_6_-_Photo.jpeg_sbnhu8.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764520882/30_60_Klampok_2_dy5tde.avif",
       title: "Ruang untuk Keluarga Tumbuh",
       description: "Lingkungan tertata dengan fasilitas modern untuk keluarga muda.",
     },

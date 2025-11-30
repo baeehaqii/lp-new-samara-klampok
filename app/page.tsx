@@ -12,6 +12,7 @@ import Accessibility from "@/components/accessibility"
 import Concepts from "@/components/concepts"
 import WhatsAppFloat from "@/components/whatsapp-float"
 import { Analytics } from "@vercel/analytics/next"
+import YouTube from "@/components/youtube"
 
 export default function HomePage() {
   return (
@@ -25,6 +26,7 @@ export default function HomePage() {
       <Features />
       <Concepts />
       <Gallery />
+      <YouTube />
       <Testimonials />
       <FAQ />
       <CallToAction />

@@ -27,7 +27,7 @@ export default function About() {
             {/* Container gambar */}
             <div className="about-image-container">
               <Image
-                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif"
+                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764520890/32_66_Klampok_2_jun11y.avif"
                 alt="Samara Klampok"
                 width={600}
                 height={450}
@@ -61,8 +61,8 @@ export default function About() {
           <div className="about-stats-grid">
             {/* Statistik - Best Locations */}
             <div className="about-stat-card">
-              <div className="about-stat-value">3</div>
-              <div className="about-stat-label">Lokasi Terbaik di Jawa Bagian Selatan</div>
+              <div className="about-stat-value">2</div>
+              <div className="about-stat-label">Lokasi Terbaik di Jawa Bagian Utara</div>
             </div>
 
             {/* Statistik - Families */}
@@ -73,7 +73,7 @@ export default function About() {
 
             {/* Statistik - Featured Projects */}
             <div className="about-stat-card">
-              <div className="about-stat-value">3</div>
+              <div className="about-stat-value">2</div>
               <div className="about-stat-label">Proyek Unggulan</div>
             </div>
 
@@ -97,7 +97,7 @@ export default function About() {
               <h2 className="modal-title">Samara Klampok</h2>
               <div className="modal-image">
                 <Image
-                  src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif"
+                  src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764520882/30_60_Klampok_vzm37m.avif"
                   alt="Samara Klampok"
                   width={700}
                   height={400}
