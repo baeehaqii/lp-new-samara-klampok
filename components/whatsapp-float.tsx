@@ -14,10 +14,10 @@ export default function WhatsAppFloat() {
         currency: 'IDR'
       });
     }
-    
+
     // Replace with your WhatsApp number (format: country code + number without + or spaces)
     const phoneNumber = "628170031130" // Example: Indonesian number
-    const message = encodeURIComponent("Halo, saya tertarik dengan Samara Klampok")
+    const message = encodeURIComponent("Halo kak, saya dapat informasi dari Facebook, boleh minta tolong informasi selengkapnya tentang perumahan Samara Klampok")
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
   }
 

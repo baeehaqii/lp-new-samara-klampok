@@ -41,17 +41,17 @@ export default function CallToAction() {
 
           <div className="cta-buttons">
             <Link
-              href="https://wa.me/628170031130?text=Halo,%20saya%20tertarik%20dengan%20properti%20Samara%20Asri%20Wiradadi"
+              href="https://wa.me/628170031130?text=Halo%20kak%2C%20saya%20dapat%20informasi%20dari%20Facebook%2C%20boleh%20minta%20tolong%20informasi%20selengkapnya%20tentang%20perumahan%20Samara%20Klampok"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-button cta-button-primary"
               onClick={handleWhatsAppClick}
             >
               <Phone className="cta-button-icon" />
-              Whatsapp Kami
+              Hubungi Kami
             </Link>
             <Link
-              href="https://wa.me/628170031130?text=Halo,%20saya%20tertarik%20dengan%20properti%20Samara%20Asri%20Wiradadi"
+              href="https://wa.me/628170031130?text=Halo%20kak%2C%20saya%20dapat%20informasi%20dari%20Facebook%2C%20boleh%20minta%20tolong%20informasi%20selengkapnya%20tentang%20perumahan%20Samara%20Klampok"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-button cta-button-outline"
